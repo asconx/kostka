@@ -8,12 +8,11 @@
     tools:context=".MainActivity"
     android:background="#f5f5dc"
     >
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:gravity="center_horizontal"
         >
 
         <TextView
@@ -29,6 +28,14 @@
             app:layout_anchorGravity="center"
 
             />
+
+        <Button
+            android:id="@+id/losuj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="#D2691E"
+            android:text="RZUĆ KOŚĆMI" />
 
 
     </LinearLayout>
