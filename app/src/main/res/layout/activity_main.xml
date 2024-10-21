@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:background="#F5F5DC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tytul"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="#A52A2A"
+            android:text="Gra w kości. Autor: Maciej Ziętarski"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:padding="10dp"
+            app:layout_achor="#+id/tytul"
+            app:layout_achorGravity="center"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RZUĆ KOŚCMI"
+            android:backgroundTint="#D2691E"
+            android:layout_margin="20dp"
+            />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
