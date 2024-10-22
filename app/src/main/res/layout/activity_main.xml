@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:background="#F5F5DC">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="427dp"
+            android:layout_height="wrap_content"
+            android:background="#A52A2A"
+            android:padding="10dp"
+            android:text="Gra w kości. Autor 0000"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:layout_anchor="@+id/textView"
+            app:layout_anchorGravity="top|center" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D2691E"
+            android:layout_margin="20dp"
+            android:text="RZUĆ KOŚĆMI" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:orientation="horizontal"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/kostka1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/kostka7" />
+
+            <ImageView
+                android:id="@+id/kostka2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/kostka7" />
+
+            <ImageView
+                android:id="@+id/kostka3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/kostka7" />
+
+            <ImageView
+                android:id="@+id/kostka4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/kostka7" />
+
+            <ImageView
+                android:id="@+id/kostka5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/kostka7" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wynikText"
+            android:layout_width="match_parent"
+            android:layout_height=""
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
