@@ -47,7 +47,7 @@
         android:layout_height="match_parent" >
 
       <ImageView
-          android:id="@+id/imageView3"
+          android:id="@+id/kostka1"
           android:layout_width="67dp"
           android:layout_height="60dp"
           android:layout_margin="9dp"
