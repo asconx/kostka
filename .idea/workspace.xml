@@ -21,10 +21,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/3tp vlad haidaichuk/PycharmProjects/kostka"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\3tp vlad haidaichuk\PycharmProjects\kostka" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
