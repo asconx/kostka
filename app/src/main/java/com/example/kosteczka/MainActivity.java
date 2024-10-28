@@ -37,12 +37,12 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.kostka6)
         };
         int[] sciany = {
-                R.drawable.kostka_1,
-                R.drawable.kostka_2,
-                R.drawable.kostka_3,
-                R.drawable.kostka_4,
-                R.drawable.kostka_5,
-                R.drawable.kostka_6
+                R.drawable.kostka1,
+                R.drawable.kostka2,
+                R.drawable.kostka3,
+                R.drawable.kostka4,
+                R.drawable.kostka5,
+                R.drawable.kostka6
         };
 
         losuj.setOnClickListener(v -> {
