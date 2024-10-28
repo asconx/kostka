@@ -1,5 +1,6 @@
 package com.example.kosteczka;
 import android.graphics.drawable.Drawable;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        TextView wynikText = findViewById(R.id.textView3);
+        View wynikText = findViewById(R.id.textView3);//TextView wynikText = findViewById(R.id.textView3);
         TextView wynikGryText = findViewById(R.id.textView5);
         wynikGry = 0;
 
