@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:background="@color/Orang"
             android:padding="10dp"
-            android:text="Gra w kości. Autor: Kondziux"
+            android:text="Gra w kości. Autor: vapek12"
             android:textColor="#FFFFFF"
             android:textSize="20dp" />
 

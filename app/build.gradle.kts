@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "pl.kondziux1.kostka"
+    namespace = "pl.vapek.kostka"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "pl.kondziux1.kostka"
+        applicationId = "pl.vapek.kostka"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
