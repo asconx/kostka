@@ -1,0 +1,1 @@
+C:\Users\mateusz\source\repos\nwm\nwm\nwm.csproj;x64
