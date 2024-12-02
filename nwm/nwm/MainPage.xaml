@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="nwm.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="Beige"
+                             Padding="30,0"
+                             Spacing="25">
+            <Label Text="Gra w kości. Autor"
+                   BackgroundColor="Brown"
+                   Padding="13"
+                   TextColor="white" />
+            <Button x:Name="CounterBtn"
+                    Text="Click me"
+                    BackgroundColor="Chocolate"
+                    MaximumWidthRequest="125"
+                    Clicked="OnChangeImageClicked"
+                    HorizontalOptions="Fill" />
+            
+            <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+                <Image x:Name="image1" Source="x.png" HeightRequest="185" Aspect="AspectFit" />
+                <Image x:Name="image2" Source="x.png" HeightRequest="185" Aspect="AspectFit" />
+                <Image x:Name="image3" Source="x.png" HeightRequest="185" Aspect="AspectFit" />
+                <Image x:Name="image4" Source="x.png" HeightRequest="185" Aspect="AspectFit" />
+                <Image x:Name="image5" Source="x.png" HeightRequest="185" Aspect="AspectFit" />
+            </HorizontalStackLayout>
+            <Button x:Name="ResetBtn"
+                  Text="Reset"
+                  BackgroundColor="Chocolate"
+                  MaximumWidthRequest="125"
+                  Clicked="OnResetClicked"
+                  HorizontalOptions="Fill" />
+            <Label x:Name="resultLabel"
+                   Text="Wynik tego losowania:"
+                   VerticalTextAlignment="Center"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center" />
+            <Label x:Name="resultGame"
+                    Text="Wynik gry:"
+                   VerticalTextAlignment="Center"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
